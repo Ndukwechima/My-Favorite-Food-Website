@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { mealData } from "../data/data";
-import { ArrowSmRightIcon } from "@heroicons/react/outline";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const Meal = () => {
   const [foods, setFoods] = useState(mealData);
@@ -63,7 +63,7 @@ const Meal = () => {
             </div>
             <div className="pl-2 py-4 -mt-7">
               <p className="flex items-center text-orange-600">
-                View More <ArrowSmRightIcon className="w-5 ml-2" />
+                View More <FaArrowRightLong className="w-5 ml-2" />
               </p>
             </div>
           </div>
